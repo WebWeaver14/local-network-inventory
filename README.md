@@ -6,7 +6,7 @@ Find every device on a local network (phones, printers, cameras, PCs) and make a
 - Date: 2025-11-09
 - Network (lab/home): 192.168.29.0/24
 - Scanning host: 192.168.29.178 (eth0)
-- Tools: arp-scan, nmap, awk
+- Tools: arp-scan, nmap, awk, curl
 
 ## Goal
 Produce an inventory CSV of devices and include raw scan outputs for reproducibility.
