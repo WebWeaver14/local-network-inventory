@@ -12,7 +12,7 @@ Find every device on a local network (phones, printers, cameras, PCs) and make a
 Produce an inventory CSV of devices and include raw scan outputs for reproducibility.
 
 ## Deliverables
-- `inventory_raw.csv` — device inventory (IP, MAC, Hostname, Vendor, Open ports, Services, OS_guess, Notes)
+- `inventory.csv` — device inventory (IP, MAC, Hostname, Vendor, Open ports, Services, OS_guess, Notes)
 - `scans/` — raw nmap outputs (`.nmap`, `.gnmap`, `.xml`) and any arp-scan output
 - `report.md` — summary of findings and remediation
 
