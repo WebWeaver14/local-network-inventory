@@ -1,6 +1,6 @@
       
 # Local Network Discovery & Device Inventory
-Find every device on a local network (phones, printers, cameras, PCs) and make a tidy list of what each device is 
+Find every device on a local network (phones, printers, cameras, PCs) and make a tidy list of what each device is and what it’s running.
 
 ## Scope
 - Date: 2025-11-09
