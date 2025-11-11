@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Fri Nov  7 22:53:12 2025 as: /usr/lib/nmap/nmap -sS -sV -O -p- --open -oA scans/scan_192.168.29.100 192.168.29.100
+Host: 192.168.29.100 ()	Status: Up
+Host: 192.168.29.100 ()	Ports: 80/open/tcp//http///, 554/open/tcp//rtsp//Lorex IP camera rtspd/, 25001/open/tcp//icl-twobase2?///	OS: Linux 3.2 - 4.14	Seq Index: 258	IP ID Seq: All zeros
+# Nmap done at Fri Nov  7 22:57:15 2025 -- 1 IP address (1 host up) scanned in 243.70 seconds

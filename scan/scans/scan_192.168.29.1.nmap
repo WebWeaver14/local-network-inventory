@@ -1,0 +1,155 @@
+# Nmap 7.95 scan initiated Fri Nov  7 11:58:39 2025 as: /usr/lib/nmap/nmap -sS -sV -O -p- --open -oA scans/scan_192.168.29.1 192.168.29.1
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.013s latency).
+Not shown: 65315 filtered tcp ports (no-response), 211 closed tcp ports (reset)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE             VERSION
+80/tcp    open  http                lighttpd
+443/tcp   open  ssl/http            lighttpd
+1900/tcp  open  upnp
+2872/tcp  open  upnp
+5068/tcp  open  ssl/sip             JCO4032/JUICEJFV-1.3.31 (Status: 200 OK)
+7443/tcp  open  ssl/oracleas-https?
+8080/tcp  open  http-proxy          JCO4032/JUICEJFV-1.3.31
+8443/tcp  open  ssl/https-alt       JCO4032/JUICEJFV-1.3.31
+54321/tcp open  unknown
+7 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1900-TCP:V=7.95%I=7%D=11/7%Time=690E29B9%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,C9,"HTTP/1\.1\x20404\x20Not\x20Found\r\nServer:\x20Linux\x20UP
+SF:nP/1\.0\x20DLNADOC/1\.50\x20AccessTwine/1\.0-RAS\x20Device/reliance\.re
+SF:liance\r\nContent-Length:\x2048\r\nContent-Type:\x20text/html\r\n\r\n<H
+SF:TML><BODY><H1>404\x20Not\x20Found</H1></BODY></HTML>")%r(HTTPOptions,DB
+SF:,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nServer:\x20Linux\x20U
+SF:PnP/1\.0\x20DLNADOC/1\.50\x20AccessTwine/1\.0-RAS\x20Device/reliance\.r
+SF:eliance\r\nContent-Length:\x2057\r\nContent-Type:\x20text/html\r\n\r\n<
+SF:HTML><BODY><H1>405\x20Method\x20Not\x20Allowed</H1></BODY></HTML>")%r(F
+SF:ourOhFourRequest,C9,"HTTP/1\.1\x20404\x20Not\x20Found\r\nServer:\x20Lin
+SF:ux\x20UPnP/1\.0\x20DLNADOC/1\.50\x20AccessTwine/1\.0-RAS\x20Device/reli
+SF:ance\.reliance\r\nContent-Length:\x2048\r\nContent-Type:\x20text/html\r
+SF:\n\r\n<HTML><BODY><H1>404\x20Not\x20Found</H1></BODY></HTML>");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port2872-TCP:V=7.95%I=7%D=11/7%Time=690E29BE%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,C9,"HTTP/1\.1\x20404\x20Not\x20Found\r\nServer:\x20Linux\x20UP
+SF:nP/1\.0\x20DLNADOC/1\.50\x20AccessTwine/1\.0-RAS\x20Device/reliance\.re
+SF:liance\r\nContent-Length:\x2048\r\nContent-Type:\x20text/html\r\n\r\n<H
+SF:TML><BODY><H1>404\x20Not\x20Found</H1></BODY></HTML>")%r(HTTPOptions,DB
+SF:,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nServer:\x20Linux\x20U
+SF:PnP/1\.0\x20DLNADOC/1\.50\x20AccessTwine/1\.0-RAS\x20Device/reliance\.r
+SF:eliance\r\nContent-Length:\x2057\r\nContent-Type:\x20text/html\r\n\r\n<
+SF:HTML><BODY><H1>405\x20Method\x20Not\x20Allowed</H1></BODY></HTML>")%r(F
+SF:ourOhFourRequest,C9,"HTTP/1\.1\x20404\x20Not\x20Found\r\nServer:\x20Lin
+SF:ux\x20UPnP/1\.0\x20DLNADOC/1\.50\x20AccessTwine/1\.0-RAS\x20Device/reli
+SF:ance\.reliance\r\nContent-Length:\x2048\r\nContent-Type:\x20text/html\r
+SF:\n\r\n<HTML><BODY><H1>404\x20Not\x20Found</H1></BODY></HTML>");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5068-TCP:V=7.95%T=SSL%I=7%D=11/7%Time=690E29C5%P=x86_64-pc-linux-gn
+SF:u%r(GenericLines,2,"\r\n")%r(SIPOptions,81C,"SIP/2\.0\x20200\x20OK\r\nV
+SF:ia:\x20SIP/2\.0/TCP\x20nm;branch=foo;received=192\.168\.29\.178\r\nCont
+SF:act:\x20<sip:192\.168\.29\.1:5068;transport=tls>;video\r\nTo:\x20<sip:n
+SF:m2@nm2>;tag=d8a79565\r\nFrom:\x20<sip:nm@nm>;tag=root\r\nCall-ID:\x2050
+SF:000\r\nCSeq:\x2042\x20OPTIONS\r\nAccept:\x20application/sdp,\x20multipa
+SF:rt/mixed,\x20multipart/signed,\x20multipart/alternative\r\nAccept-Langu
+SF:age:\x20en\r\nAllow:\x20REGISTER,\x20INVITE,\x20ACK,\x20CANCEL,\x20OPTI
+SF:ONS,\x20BYE,\x20REFER,\x20NOTIFY,\x20SUBSCRIBE,\x20UPDATE,\x20PRACK,\x2
+SF:0INFO,\x20MESSAGE\r\nContent-Type:\x20application/sdp\r\nSupported:\x20
+SF:path,\x20replaces,\x20timer,\x20norefersub\r\nUser-Agent:\x20JCO4032/JU
+SF:ICEJFV-1\.3\.31\r\nContent-Length:\x201506\r\n\r\nv=0\r\no=-\x203757745
+SF:984\x203757745984\x20IN\x20IP6\x202405:201:9006:d000:78ed:4f6c:3017:1f6
+SF:6\r\ns=HGW\x20session\r\nt=0\x200\r\na=X-nat:0\r\nc=IN\x20IP6\x202405:2
+SF:01:9006:d000:78ed:4f6c:3017:1f66\r\nm=audio\x2014566\x20RTP/AVP\x20104\
+SF:x20103\x20101\x20102\r\nb=TIAS:24400\r\nb=AS:49\r\nb=RS:607\r\nb=RR:181
+SF:6\r\na=sendrecv\r\na=rtpmap:104\x20AMR-WB/16000\r\na=rtpmap:103\x20AMR/
+SF:8000\r\na=rtpmap:101\x20telephone-ev");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port7443-TCP:V=7.95%T=SSL%I=7%D=11/7%Time=690E29BC%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,98,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\nConten
+SF:t-Length:\x2019\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r
+SF:\nServer:\x20JCO4032/JUICEJFV-1\.3\.31\r\n\r\nService\x20Unavailable")%
+SF:r(HTTPOptions,90,"HTTP/1\.0\x20501\x20Not\x20Implemented\r\nContent-Len
+SF:gth:\x2015\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nSer
+SF:ver:\x20JCO4032/JUICEJFV-1\.3\.31\r\n\r\nNot\x20implemented");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.95%I=7%D=11/7%Time=690E29B4%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,98,"HTTP/1\.0\x20503\x20Service\x20Unavailable\r\nContent-Leng
+SF:th:\x2019\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nServ
+SF:er:\x20JCO4032/JUICEJFV-1\.3\.31\r\n\r\nService\x20Unavailable")%r(HTTP
+SF:Options,90,"HTTP/1\.0\x20501\x20Not\x20Implemented\r\nContent-Length:\x
+SF:2015\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nServer:\x
+SF:20JCO4032/JUICEJFV-1\.3\.31\r\n\r\nNot\x20implemented")%r(FourOhFourReq
+SF:uest,88,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nContent-Length:\x2011\r\
+SF:nContent-Type:\x20text/html\r\nConnection:\x20close\r\nServer:\x20JCO40
+SF:32/JUICEJFV-1\.3\.31\r\n\r\nBad\x20Request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8443-TCP:V=7.95%T=SSL%I=7%D=11/7%Time=690E29BD%P=x86_64-pc-linux-gn
+SF:u%r(HTTPOptions,90,"HTTP/1\.0\x20501\x20Not\x20Implemented\r\nContent-L
+SF:ength:\x2015\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nS
+SF:erver:\x20JCO4032/JUICEJFV-1\.3\.31\r\n\r\nNot\x20implemented")%r(FourO
+SF:hFourRequest,88,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nContent-Length:\
+SF:x2011\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nServer:\
+SF:x20JCO4032/JUICEJFV-1\.3\.31\r\n\r\nBad\x20Request")%r(DNSVersionBindRe
+SF:qTCP,65,"\(null\)\x20400\x20Bad\x20Request\r\nContent-Length:\x2011\r\n
+SF:Content-Type:\x20text/html\r\nConnection:\x20close\r\n\r\nBad\x20Reques
+SF:t")%r(DNSStatusRequestTCP,65,"\(null\)\x20400\x20Bad\x20Request\r\nCont
+SF:ent-Length:\x2011\r\nContent-Type:\x20text/html\r\nConnection:\x20close
+SF:\r\n\r\nBad\x20Request")%r(SMBProgNeg,65,"\(null\)\x20400\x20Bad\x20Req
+SF:uest\r\nContent-Length:\x2011\r\nContent-Type:\x20text/html\r\nConnecti
+SF:on:\x20close\r\n\r\nBad\x20Request")%r(LDAPBindReq,65,"\(null\)\x20400\
+SF:x20Bad\x20Request\r\nContent-Length:\x2011\r\nContent-Type:\x20text/htm
+SF:l\r\nConnection:\x20close\r\n\r\nBad\x20Request")%r(LANDesk-RC,65,"\(nu
+SF:ll\)\x20400\x20Bad\x20Request\r\nContent-Length:\x2011\r\nContent-Type:
+SF:\x20text/html\r\nConnection:\x20close\r\n\r\nBad\x20Request")%r(Termina
+SF:lServer,65,"\(null\)\x20400\x20Bad\x20Request\r\nContent-Length:\x2011\
+SF:r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\n\r\nBad\x20Req
+SF:uest")%r(JavaRMI,65,"\(null\)\x20400\x20Bad\x20Request\r\nContent-Lengt
+SF:h:\x2011\r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\n\r\nB
+SF:ad\x20Request")%r(WMSRequest,65,"\(null\)\x20400\x20Bad\x20Request\r\nC
+SF:ontent-Length:\x2011\r\nContent-Type:\x20text/html\r\nConnection:\x20cl
+SF:ose\r\n\r\nBad\x20Request")%r(oracle-tns,65,"\(null\)\x20400\x20Bad\x20
+SF:Request\r\nContent-Length:\x2011\r\nContent-Type:\x20text/html\r\nConne
+SF:ction:\x20close\r\n\r\nBad\x20Request")%r(ms-sql-s,65,"\(null\)\x20400\
+SF:x20Bad\x20Request\r\nContent-Length:\x2011\r\nContent-Type:\x20text/htm
+SF:l\r\nConnection:\x20close\r\n\r\nBad\x20Request")%r(afp,65,"\(null\)\x2
+SF:0400\x20Bad\x20Request\r\nContent-Length:\x2011\r\nContent-Type:\x20tex
+SF:t/html\r\nConnection:\x20close\r\n\r\nBad\x20Request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port54321-TCP:V=7.95%I=7%D=11/7%Time=690E29B7%P=x86_64-pc-linux-gnu%r(G
+SF:enericLines,200,"\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(GetRequest,200,"\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0");
+MAC Address: 4C:93:A6:8D:F1:F3 (Sercomm)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.11 - 4.9
+Network Distance: 1 hop
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov  7 12:19:23 2025 -- 1 IP address (1 host up) scanned in 1244.11 seconds

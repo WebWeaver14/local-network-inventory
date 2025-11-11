@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Fri Nov  7 13:23:26 2025 as: /usr/lib/nmap/nmap -sS -sV -O -p- --open -oA scans/scan_192.168.29.70 192.168.29.70
+Host: 192.168.29.70 ()	Status: Up
+Host: 192.168.29.70 ()	Ports: 3306/open/tcp//mysql//MySQL (unauthorized)/, 5040/open/tcp/////, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 7070/open/tcp//ssl|realserver?///, 7680/open/tcp//pando-pub?///, 33060/open/tcp//mysqlx//MySQL X protocol listener/	Ignored State: filtered (65529)	Seq Index: 264	IP ID Seq: Incremental
+# Nmap done at Fri Nov  7 13:26:46 2025 -- 1 IP address (1 host up) scanned in 200.08 seconds

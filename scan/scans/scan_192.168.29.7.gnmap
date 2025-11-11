@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Sat Nov  8 00:17:15 2025 as: /usr/lib/nmap/nmap -sS -sV -O -p- --open -oA scans/scan_192.168.29.7 192.168.29.7
+Host: 192.168.29.7 ()	Status: Up
+Host: 192.168.29.7 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.65 ((Debian))/	Ignored State: closed (65534)	OS: Linux 2.6.32|Linux 5.0 - 6.2	Seq Index: 259	IP ID Seq: All zeros
+# Nmap done at Sat Nov  8 00:17:23 2025 -- 1 IP address (1 host up) scanned in 8.04 seconds

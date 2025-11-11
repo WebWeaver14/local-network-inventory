@@ -1,0 +1,50 @@
+# Nmap 7.95 scan initiated Fri Nov  7 13:18:20 2025 as: /usr/lib/nmap/nmap -sS -sV -O -p- --open -oA scans/scan_192.168.29.17 192.168.29.17
+Nmap scan report for 192.168.29.17
+Host is up (0.049s latency).
+Not shown: 34572 filtered tcp ports (no-response), 30962 closed tcp ports (reset)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+80/tcp open  http    SHIP 2.0
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.95%I=7%D=11/7%Time=690E3835%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,83,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20SHIP\x202\.0\r\nContent
+SF:-Length:\x2049\r\nContent-Type:\x20text/html\r\n\r\n<html><body><center
+SF:>200\x20OK</center></body></html>")%r(HTTPOptions,83,"HTTP/1\.1\x20200\
+SF:x20OK\r\nServer:\x20SHIP\x202\.0\r\nContent-Length:\x2049\r\nContent-Ty
+SF:pe:\x20text/html\r\n\r\n<html><body><center>200\x20OK</center></body></
+SF:html>")%r(RTSPRequest,83,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20SHIP\x20
+SF:2\.0\r\nContent-Length:\x2049\r\nContent-Type:\x20text/html\r\n\r\n<htm
+SF:l><body><center>200\x20OK</center></body></html>")%r(FourOhFourRequest,
+SF:83,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20SHIP\x202\.0\r\nContent-Length
+SF::\x2049\r\nContent-Type:\x20text/html\r\n\r\n<html><body><center>200\x2
+SF:0OK</center></body></html>")%r(GenericLines,83,"HTTP/1\.1\x20200\x20OK\
+SF:r\nServer:\x20SHIP\x202\.0\r\nContent-Length:\x2049\r\nContent-Type:\x2
+SF:0text/html\r\n\r\n<html><body><center>200\x20OK</center></body></html>"
+SF:)%r(Help,83,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20SHIP\x202\.0\r\nConte
+SF:nt-Length:\x2049\r\nContent-Type:\x20text/html\r\n\r\n<html><body><cent
+SF:er>200\x20OK</center></body></html>")%r(TerminalServerCookie,83,"HTTP/1
+SF:\.1\x20200\x20OK\r\nServer:\x20SHIP\x202\.0\r\nContent-Length:\x2049\r\
+SF:nContent-Type:\x20text/html\r\n\r\n<html><body><center>200\x20OK</cente
+SF:r></body></html>")%r(SIPOptions,83,"HTTP/1\.1\x20200\x20OK\r\nServer:\x
+SF:20SHIP\x202\.0\r\nContent-Length:\x2049\r\nContent-Type:\x20text/html\r
+SF:\n\r\n<html><body><center>200\x20OK</center></body></html>");
+MAC Address: E0:D3:62:0F:D0:52 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=11/7%OT=80%CT=3%CU=30352%PV=Y%DS=1%DC=D%G=Y%M=E0D362%T
+OS:M=690E38E7%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10B%TI=I%CI=I%II=R
+OS:I%SS=O%TS=U)SEQ(SP=106%GCD=1%ISR=10C%TI=I%CI=I%TS=U)SEQ(SP=106%GCD=1%ISR
+OS:=10C%TI=I%CI=I%II=RI%SS=S%TS=U)SEQ(SP=108%GCD=1%ISR=10A%TI=I%CI=I%TS=U)S
+OS:EQ(SP=108%GCD=1%ISR=10A%TI=I%CI=I%II=RI%SS=S%TS=U)OPS(O1=M5A0%O2=M5A0%O3
+OS:=M5A0%O4=M5A0%O5=M5A0%O6=M5A0)WIN(W1=1670%W2=1670%W3=1670%W4=1670%W5=167
+OS:0%W6=1670)ECN(R=Y%DF=N%T=FF%W=1670%O=M5A0%CC=N%Q=)T1(R=Y%DF=N%T=FF%S=O%A
+OS:=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=N%T=FF%W=1670%S=O%A=S+%F=AS%O=M5A0%RD=
+OS:0%Q=)T4(R=Y%DF=N%T=FF%W=7016%S=A%A=S%F=AR%O=%RD=0%Q=)T5(R=Y%DF=N%T=FF%W=
+OS:7016%S=A%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=FF%W=7016%S=A%A=S%F=AR%O=%RD
+OS:=0%Q=)T7(R=Y%DF=N%T=FF%W=7016%S=A%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=FF%
+OS:IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=FF%CD=S)
+
+Network Distance: 1 hop
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov  7 13:22:31 2025 -- 1 IP address (1 host up) scanned in 250.71 seconds

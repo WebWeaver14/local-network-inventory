@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Fri Nov  7 11:23:10 2025 as: /usr/lib/nmap/nmap -sn -oG ping-scan.gnmap 192.168.29.0/24
+Host: 192.168.29.1 (reliance.reliance)	Status: Up
+Host: 192.168.29.3 ()	Status: Up
+Host: 192.168.29.17 ()	Status: Up
+Host: 192.168.29.70 ()	Status: Up
+Host: 192.168.29.100 ()	Status: Up
+Host: 192.168.29.7 ()	Status: Up
+Host: 192.168.29.178 ()	Status: Up
+# Nmap done at Fri Nov  7 11:23:20 2025 -- 256 IP addresses (7 hosts up) scanned in 9.95 seconds

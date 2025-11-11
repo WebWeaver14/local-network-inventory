@@ -1,0 +1,24 @@
+# Nmap 7.95 scan initiated Fri Nov  7 13:23:26 2025 as: /usr/lib/nmap/nmap -sS -sV -O -p- --open -oA scans/scan_192.168.29.70 192.168.29.70
+Nmap scan report for 192.168.29.70
+Host is up (0.00060s latency).
+Not shown: 65529 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE         VERSION
+3306/tcp  open  mysql           MySQL (unauthorized)
+5040/tcp  open  unknown
+5357/tcp  open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+7070/tcp  open  ssl/realserver?
+7680/tcp  open  pando-pub?
+33060/tcp open  mysqlx          MySQL X protocol listener
+MAC Address: F0:77:C3:FE:E0:66 (Intel Corporate)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 11|10|2008 (91%), FreeBSD 6.X (88%)
+OS CPE: cpe:/o:microsoft:windows_11 cpe:/o:freebsd:freebsd:6.2 cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_server_2008::beta3 cpe:/o:microsoft:windows_server_2008
+Aggressive OS guesses: Microsoft Windows 11 21H2 (91%), FreeBSD 6.2-RELEASE (88%), Microsoft Windows 10 (86%), Microsoft Windows Server 2008 or 2008 Beta 3 (85%), Microsoft Windows 10 1607 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov  7 13:26:46 2025 -- 1 IP address (1 host up) scanned in 200.08 seconds
